@@ -48,4 +48,5 @@
     background-color: var(--color-white);
     background-size: cover;
     background-position: center;
+    margin-bottom: -60px;
 }
