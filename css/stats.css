@@ -38,7 +38,10 @@
     background-color: var(--color-primary);
 }
 .circle__third{
-    background-color: var(--color-green);
+    background-color: var(--color-green);position: relative;
+    z-index: 1;
+    top: 62px;
+    left: 3px;
 }
 
 .blog__stats article{
