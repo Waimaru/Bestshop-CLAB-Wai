@@ -23,7 +23,7 @@
         <div class="logo">BestShop</div>
             <div>
             <ul class="menu">
-                <li class="nav__link"><a href="#stats"></a>why us</li>
+                <li class="nav__link"><a href="#"></a>why us</li>
                 <li class="nav__link"><a href="#"></a>benefits</li>
                 <li class="nav__link"><a href="#"></a>prices</li>
                 <li class="nav__link"><a href="#"></a>contacts</li>
@@ -44,7 +44,7 @@
 <div class="main__bckgrd"></div>
 <!--main-->
 <!--blog-->
-<section class="blog__container" id="stats">
+<section class="blog__container">
     <div class="blog__header">The most popular sales platform in country</div>
     <div class="blog__stats">
         <article>
@@ -113,24 +113,93 @@
 </section>
 <!--benefits-->
 <!--price list-->
-<section class="pricelist_container">
-    <article class="basic">
-        <div>
-            <h3>Basic</h3>
-            <p>$0</p>
+<section class="pricelist__container">
+    <h3>Pricing</h3>
+    <article>
+        <div class="pricelist__box pricelist__box--basic">
+         <div>
+             <h3>Basic</h3>
+             <p>$0</p>
+         </div>
+         <ul class="pricelist__items">
+            <li class="pricelist__item">100 MB HDD</li>
+            <li class="pricelist__item">1 Subdomain</li>
+            <li class="pricelist__item">2 E-mails</li>
+            <li class="pricelist__item pricelist__item--not">Two years license</li>
+            <li class="pricelist__item pricelist__item--not">Full support</li>
+         </ul>
+         <a href="#" class="btn">Begin</a>
         </div>
-        <ul>
-            <li><img src="images/Checkmark.svg" alt="check">100 MB HDD</li>
-            <li><img src="images/Checkmark.svg" alt="check">1 Subdomain</li>
-            <li><img src="images/Checkmark.svg" alt="check">2 E-mails</li>
-            <li>Two years license</li>
-            <li>Full support</li>
-        </ul>
-        <button><a href="#">Begin</a></button>
+        <div class="pricelist__box pricelist__box--professional">
+            <div>
+                <h3>Professional</h3>
+                <p>$25</p>
+                <p class="limited">Limited offer</p>
+            </div>
+            <ul class="pricelist__items">
+                <li class="pricelist__item">500 MB HDD</li>
+                <li class="pricelist__item">2 Subdomain</li>
+                <li class="pricelist__item">5 E-mails</li>
+                <li class="pricelist__item">One year license</li>
+                <li class="pricelist__item pricelist__item--not">Full support</li>
+            </ul>
+            <a href="#" class="btn">Begin</a>
+        </div>
+        <div class="pricelist__box pricelist__box--premium">
+            <div>
+                <h3>Premium</h3>
+                <p>$60</p>
+                <p class="limited">Limited offer</p>
+            </div>
+            <ul class="pricelist__items">
+                <li class="pricelist__item">2 GB HDD</li>
+                <li class="pricelist__item">5 Subdomain</li>
+                <li class="pricelist__item">20 E-mails</li>
+                <li class="pricelist__item">Two years license</li>
+                <li class="pricelist__item">Full support</li>
+            </ul>
+            <a href="#" class="btn">Begin</a>
+        </div>
     </article>
 </section>
 <!--price list -->
 <!--contacts-->
+<section class="contacts__container">
+    <article class="contact__column">
+        <h3>Any questions?</h3>
+        <p>Leave youe email adress or contact us!</p>
+        <div class="contact__adress">
+            <a href="mailto:info@bestshop.xyz" class="adress__item">
+                <img src="images/Mail%20Icon.svg" alt="mail">info@bestshop.xyz</a>
+            <a href="tel:123456789" class="adress__item"><img src="images/Phone%20Icon.svg">123 456 789</a>
+        </div>
+    </article>
+    <article class="contact__column">
+        <form>
+            <div class="form__field">
+                <label class="form__label" for="name">Name</label>
+                <input type="text" class="form__input name" id="name">
+            </div>
+            <div class="form__field">
+                <label class="form__label" for="email">E-mail</label>
+                <input type="email" class="form__input email" id="email">
+            </div>
+            <div class="form__consent">
+                <label class="form__checkbox"/>
+                <span class="checkbox"></span>
+                <p> I hereby give consent for my personal data included in my
+                    application to be processed for the purposes of the recruitment
+                    process under the European Parliament’s and Council of the
+                    European Union Regulation on the Protection of Natural Persons as
+                    of 27 April 2016, with regard to the processing of personal data
+                    and on the free movement of such data, and repealing Directive
+                    95/46/EC (Data Protection Directive)
+                </p>
+            </div>
+            <button type="submit" class="btn btn--primary">Send</button>
+        </form>
+    </article>
+</section>
 <!--contacts-->
 <!--footer-->
 <header class="footer">
@@ -140,8 +209,8 @@
             <p>© 2019 BestShop LTD, All Rights Reserved</p>
         </div>
         <div class="media_logo">
-            <img src="images/Twitter.svg">
-            <img src="images/Facebook.svg">
+            <img src="images/Twitter.svg" alt="twitter">
+            <img src="images/Facebook.svg" alt="facebook">
         </div>
     </section>
 </header>
